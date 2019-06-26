@@ -41,7 +41,7 @@ public class Cell extends RectangularTextContainer<TextChunk> {
 			sb.append(tc.getText());
 			curTop = tc.getTop();
 		}
-		return sb.toString().trim();
+		return sb.toString();
 	}
 
 	public String getText() {
